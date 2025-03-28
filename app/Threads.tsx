@@ -7,7 +7,7 @@ import {
 import { Editor } from "@tiptap/react";
 
 export function Threads({ editor }: { editor: Editor | null }) {
-  const { threads } = useThreads({ query: { resolved: false } });
+  const { threads = [] } = useThreads({ query: { resolved: false } });
 
   return (
     <ClientSideSuspense fallback={null}>
