@@ -8,15 +8,15 @@
   "start": "next start"
 },
 "dependencies": {
-"@liveblocks/client": "^1.6.9",
-"@liveblocks/react": "^1.6.9",
-"@liveblocks/react-ui": "^1.6.9",
-"@liveblocks/react-tiptap": "^0.1.7",
-"@tiptap/react": "^2.0.0-beta.210",
-"@tiptap/starter-kit": "^2.0.0-beta.210",
-"next": "13.4.10",
-"react": "18.2.0",
-"react-dom": "18.2.0",
-"typescript": "^5.2.2"
+  "@liveblocks/client": "^1.6.9",
+  "@liveblocks/react": "^1.6.9",
+  "@liveblocks/react-ui": "^1.6.9",
+  "@liveblocks/react-tiptap": "^0.0.21",
+  "@tiptap/react": "^2.0.0-beta.210",
+  "@tiptap/starter-kit": "^2.0.0-beta.210",
+  "next": "13.4.10",
+  "react": "18.2.0",
+  "react-dom": "18.2.0",
+  "typescript": "^5.2.2"
 }
 }
