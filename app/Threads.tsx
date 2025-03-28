@@ -1,4 +1,4 @@
-import { useThreads } from "@liveblocks/react/suspense";
+import { useThreads, ClientSideSuspense } from "@liveblocks/react";
 import {
   AnchoredThreads,
   FloatingComposer,
@@ -10,7 +10,7 @@ export function Threads({ editor }: { editor: Editor | null }) {
   const { threads } = useThreads({ query: { resolved: false } });
 
   return (
-    <>
+    <ClientSideSuspense fallback={null}>
       <div className="anchored-threads">
         <AnchoredThreads editor={editor} threads={threads} />
       </div>
@@ -20,6 +20,6 @@ export function Threads({ editor }: { editor: Editor | null }) {
         className="floating-threads"
       />
       <FloatingComposer editor={editor} className="floating-composer" />
-    </>
+    </ClientSideSuspense>
   );
 }
