@@ -11,7 +11,6 @@
     "@liveblocks/client": "^1.6.9",
     "@liveblocks/react": "^2.22.2",
     "@liveblocks/react-room": "^2.22.2",
-    "@liveblocks/react-comments": "^2.22.2",
     "@liveblocks/react-tiptap": "^2.22.2",
     "@tiptap/react": "^2.0.0-beta.210",
     "@tiptap/starter-kit": "^2.0.0-beta.210",
