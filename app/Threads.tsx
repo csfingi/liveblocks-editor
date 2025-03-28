@@ -1,5 +1,5 @@
 import { ClientSideSuspense } from "@liveblocks/react";
-import { useThreads } from "@liveblocks/react-comments";
+import { useThreads } from "@liveblocks/react";
 import {
   AnchoredThreads,
   FloatingComposer,
