@@ -9,14 +9,13 @@ export function Editor() {
   const liveblocks = useLiveblocksExtension();
 
   const editor = useEditor({
-    extensions: [
-      liveblocks,
-      StarterKit.configure({
-        history: false,
-      }),
-    ],
-    immediatelyRender: false,
-  });
+  extensions: [
+    liveblocks,
+    StarterKit.configure({ history: false }),
+  ],
+  content: '', // ← starts empty
+  immediatelyRender: false,
+});
 
   return (
     <div>
